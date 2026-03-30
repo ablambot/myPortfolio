@@ -5,8 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Portfolio of a 2nd-year IT student passionate about hackathons, software development, and learning.">
-    <title>Student Developer | Portfolio</title>
+        content="Portfolio of Arthur Lambot, a computer science student specializing in web development, python, and hackathons.">
+    <meta name="keywords" content="Arthur Lambot, portfolio, computer science, student developer, software engineer, web developer, Manila">
+    <meta name="author" content="Arthur Lambot">
+    
+    <!-- Open Graph for Social Previews -->
+    <meta property="og:title" content="Arthur Lambot | Student Developer Portfolio">
+    <meta property="og:description" content="Portfolio of Arthur Lambot, a passionate computer science student based in Manila.">
+    <meta property="og:type" content="website">
+    
+    <title>Arthur Lambot | Student Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
@@ -29,7 +37,7 @@
                     <p class="hero-bio">Tech Student \ Developer \ Tech Enthusiast </p>
 
                     <div class="profile-actions">
-                        <a href="mailto:your.email@example.com" class="action-btn primary-action"><i
+                        <a href="mailto:ablambot@gmail.com" class="action-btn primary-action"><i
                                 class="fas fa-envelope"></i> Email Me</a>
                         <a href="https://github.com/ablambot" class="action-btn" target="_blank"><i
                                 class="fab fa-github"></i>
@@ -198,14 +206,10 @@
                                 <i class="fas fa-laptop-code"></i>
                             </div>
                             <div class="tl-content">
-                                <h3 class="tl-role">Participant - Voice AI Hackathon Manila</h3>
-                                <p class="tl-org">Agora Philippines</p>
-                                <span class="tl-date">Mar 2026</span>
-                                <p class="tl-detail">Developed a Voice AI prototype under time constraints, contributing
-                                    to frontend
-                                    integration and real-time voice interaction features using JavaScript. Worked
-                                    collaboratively in a
-                                    fast-paced hackathon environment.</p>
+                                <h3 class="tl-role">JavaScript Essentials 1</h3>
+                                <p class="tl-org">Cisco Networking Academy</p>
+                                <span class="tl-date">Sept 2025</span>
+                                <p class="tl-detail">.</p>
                             </div>
                         </div>
 
@@ -297,6 +301,24 @@
         </footer>
 
     </main>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chatbot-header" id="chatbot-toggle">
+            <span><i class="fas fa-comment-dots"></i> Chat with ArthurBot</span>
+            <i class="fas fa-chevron-up" id="chatbot-icon"></i>
+        </div>
+        <div class="chatbot-body hidden" id="chatbot-body">
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">Hi! I'm Arthur's virtual assistant. Try asking me about his skills, projects, or how to contact him!</div>
+            </div>
+            <div class="chat-input-wrapper">
+                <input type="text" id="chat-input" placeholder="Ask a question..." autocomplete="off">
+                <button id="chat-send" aria-label="Send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
