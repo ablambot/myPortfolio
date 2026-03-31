@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Call out to the local Node.js server, passing both message and history
-            const response = await fetch('http://localhost:3000/api/chat', {
+            const response = await fetch('/api/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
