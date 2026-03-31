@@ -1,0 +1,10 @@
+# User Environment Variables (Never commit to a repository!)
+.env
+
+# Node Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
